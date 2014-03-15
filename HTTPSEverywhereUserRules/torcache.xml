@@ -1,0 +1,8 @@
+<ruleset name="Torcache">
+  <target host="www.torcache.net" />
+  <target host="torcache.net" />
+  <rule
+    from="^http(s?)://(www\.)?torcache\.net/"
+    to="https://torcache.net/"
+  />
+</ruleset>

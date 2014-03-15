@@ -1,0 +1,13 @@
+<ruleset name="ThePirateBay">
+  <target host="www.thepiratebay.com" />
+  <target host="www.thepiratebay.org" />
+  <target host="www.thepiratebay.se" />
+  <target host="www.thepiratebay.sx" />
+  <target host="thepiratebay.com" />
+  <target host="thepiratebay.org" />
+  <target host="thepiratebay.se" />
+  <target host="thepiratebay.sx" />
+  <rule from="^http(s?)://(www\.)?thepiratebay\.(com|se|sx)/"
+    to="http//jntlesnev5o7zysa.onion/"
+  />
+</ruleset>

@@ -1,0 +1,8 @@
+<ruleset name="WikiLeaks">
+  <target host="www.wikileaks.org" />
+  <target host="wikileaks.org" />
+  <rule
+    from="^http(s?)://(www\.)?wikileaks\.org/"
+    to="https://wikileaks.org/"
+  />
+</ruleset>

@@ -1,0 +1,8 @@
+<ruleset name="KickAssTorrents">
+  <target host="www.kickasstorrents.com" />
+  <rule from="^http://(www\.)?kickasstorrents\.com/" to="https://kickass.to/"/>
+  <target host="kat.ph" />
+  <rule from="^http://(www\.)?kat\.ph/" to="https://kickass.to/"/>
+  <target host="ka.tt" />
+  <rule from="^http://(www\.)?ka\.tt/" to="https://kickass.to/"/>
+</ruleset>
