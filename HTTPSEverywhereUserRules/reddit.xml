@@ -1,4 +1,4 @@
-<ruleset name="Reddit">
+<ruleset name="Reddit pay.reddit.com">
   <target host="www.reddit.com" />
   <target host="reddit.com" />
   <rule from="^http://(www\.)?reddit\.com/" to="https://pay.reddit.com/"/>
