@@ -1,7 +1,9 @@
 <ruleset name="Google">
+  <target host="www.google.ch" />
   <target host="www.google.com" />
   <target host="www.google.es" />
   <target host="www.google.ro" />
+  <target host="google.ch" />
   <target host="google.com" />
   <target host="google.es" />
   <target host="google.ro" />
