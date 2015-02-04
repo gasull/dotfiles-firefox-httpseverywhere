@@ -1,0 +1,11 @@
+<ruleset name="Amazon to Amazon Smile">
+  <target host="www.amazon.com" />
+  <target host="www.amazon.es" />
+  <target host="amazon.com" />
+  <target host="amazon.es" />
+  <!-- Redirect only on HTTPS b/c that's when you're checking out your cart -->
+  <rule
+    from="^https?://(www\.|smile\.)?amazon\.(com|es)/gp/aw/d/"
+    to="https://smile.amazon.com/dp/"
+  />
+</ruleset>
