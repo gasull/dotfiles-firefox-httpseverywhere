@@ -1,0 +1,8 @@
+<ruleset name="Blockchain to onion">
+  <target host="blockchain.info" />
+  <target host="www.blockchain.info" />
+  <rule
+      from="^http(s?)://(www\.)?blockchain\.info/"
+      to="https://blockchainbdgpzk.onion/"
+  />
+</ruleset>
