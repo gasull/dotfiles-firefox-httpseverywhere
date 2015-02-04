@@ -1,4 +1,4 @@
-<ruleset name="Google">
+<ruleset name="Google to Startpage">
   <target host="www.google.ch" />
   <target host="www.google.com" />
   <target host="www.google.es" />
