@@ -1,8 +1,12 @@
 <ruleset name="WikiLeaks">
   <target host="www.wikileaks.org" />
   <target host="wikileaks.org" />
+  <!--
+    I cannot find a confirmation that this is the official WikiLeaks .onion
+    domain.  It's probably a mirror.
+  -->
   <rule
     from="^http(s?)://(www\.)?wikileaks\.org/"
-    to="https://wikileaks.org/"
+    to="http://zbnnr7qzaxlk5tms.onion/"
   />
 </ruleset>
