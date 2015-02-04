@@ -9,7 +9,7 @@
   <target host="google.ro" />
   <target host="encrypted.google.com" />
   <rule
-      from="^http(s?)://(www\.|encrypted\.)?google\.(com|es|ro)/search\?(hl=en&amp;)?q="
+      from="^http(s?)://(www\.|encrypted\.)?google\.(ch|com|es|ro)/search\?(hl=en&amp;)?q="
       to="https://startpage.com/do/search?query="
   />
 </ruleset>
