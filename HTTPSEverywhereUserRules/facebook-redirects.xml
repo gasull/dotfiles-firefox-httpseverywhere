@@ -5,5 +5,5 @@
   -->
   <target host="facebook.com"/>
   <target host="www.facebook.com"/>
-  <rule from="^https?://(?:www\.)?facebook\.com/l\.php\?(?:.+?&amp;)?u=(?:&amp;.*)$" to="$1" />
+  <rule from="^https?://(?:www\.)?(facebook\.com|facebookcorewwwi.onion)/l\.php\?(?:.+?&amp;)?u=(?:&amp;.*)$" to="$1" />
 </ruleset>
