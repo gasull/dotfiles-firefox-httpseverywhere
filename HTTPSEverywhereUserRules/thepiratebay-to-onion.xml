@@ -3,11 +3,13 @@
   <target host="thepiratebay.ac" />
   <target host="thepiratebay.com" />
   <target host="thepiratebay.cr" />
+  <target host="thepiratebay.gl" />
+  <target host="thepiratebay.is" />
   <target host="thepiratebay.la" />
   <target host="thepiratebay.org" />
   <target host="thepiratebay.se" />
   <rule
-      from="^http(s?)://(www\.)?(old|the)piratebay\.(ac|com|cr|la|org|se)/"
+      from="^http(s?)://(www\.)?(old|the)piratebay\.(ac|com|cr|gl|is|la|org|se)/"
       to="http://uj3wazyk5u4hnvtk.onion/"
   />
 </ruleset>
