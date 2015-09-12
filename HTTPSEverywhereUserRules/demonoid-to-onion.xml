@@ -1,0 +1,18 @@
+<ruleset name="Old demonoid domains, including fake ones, to onion">
+  <target host="d2.vu" />
+  <target host="demonoid.com" />
+  <target host="demonoid.me" />
+  <target host="demonoid.ooo" />
+  <target host="demonoid.ph" />
+  <target host="demonoid.pw" />
+  <target host="www.d2.vu" />
+  <target host="www.demonoid.com" />
+  <target host="www.demonoid.me" />
+  <target host="www.demonoid.ooo" />
+  <target host="www.demonoid.ph" />
+  <target host="www.demonoid.pw" />
+  <rule
+      from="^http(s?)://(www\.)?(d2|demonoid)\.(com|me|ooo|ph|pw|vu)/"
+      to="http://demonhkzoijsvvui.onion/"
+  />
+</ruleset>
