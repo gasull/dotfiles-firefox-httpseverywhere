@@ -1,0 +1,7 @@
+<ruleset name="Deep Dot Web to onion">
+  <target host="www.deepdotweb.com" />
+  <rule
+      from="^https?://www\.deepdotweb\.com/"
+      to="http://deepdot35wvmeyd5.onion/"
+  />
+</ruleset>
