@@ -1,9 +1,0 @@
-<ruleset name="Kill Facebook Redirect Tracking">
-  <!--
-    Modified from
-    http://blog.ssokolow.com/archives/2011/11/08/bypassing-google-tracking-redirects-with-https-everywhere/
-  -->
-  <target host="facebook.com"/>
-  <target host="www.facebook.com"/>
-  <rule from="^https?://(?:www\.)?(facebook\.com|facebookcorewwwi.onion)/l\.php\?(?:.+?&amp;)?u=(?:&amp;.*)$" to="$1" />
-</ruleset>
