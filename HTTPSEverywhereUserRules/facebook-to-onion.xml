@@ -2,7 +2,7 @@
   <target host="facebook.com" />
   <target host="www.facebook.com" />
   <rule
-      from="^http(s?)://(www\.)?facebook\.com/"
-      to="https://www.facebookcorewwwi.onion/"
+      from="^http(s?)://((www\.)?facebook\.com|facebookcorewwwi.onion)/"
+      to="https://m.facebookcorewwwi.onion/"
   />
 </ruleset>
