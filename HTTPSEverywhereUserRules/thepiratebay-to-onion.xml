@@ -1,6 +1,7 @@
 <ruleset name="The Pirate Bay to onion">
   <target host="oldpiratebay.org" />
   <target host="thepiratebay.ac" />
+  <target host="thepiratebay.bid" />
   <target host="thepiratebay.com" />
   <target host="thepiratebay.cr" />
   <target host="thepiratebay.gl" />
@@ -9,7 +10,7 @@
   <target host="thepiratebay.org" />
   <target host="thepiratebay.se" />
   <rule
-      from="^http(s?)://(www\.)?(old|the)piratebay\.(ac|com|cr|gl|is|la|org|se)/"
+      from="^http(s?)://(www\.)?(old|the)piratebay\.(ac|bid|com|cr|gl|is|la|org|se)/"
       to="http://uj3wazyk5u4hnvtk.onion/"
   />
 </ruleset>
