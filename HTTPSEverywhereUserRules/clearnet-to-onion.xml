@@ -1,0 +1,28 @@
+<ruleset name="Onion proxies to onion">
+  <target host="*.hiddenservice.net" />
+  <target host="*.onion.cab" />
+  <target host="*.onion.city" />
+  <target host="*.onion.ink" />
+  <target host="*.onion.it" />
+  <target host="*.onion.link" />
+  <target host="*.onion.nu" />
+  <target host="*.onion.to" />
+  <target host="*.tor2web.org" />
+  <target host="*.torlink.co" />
+  <rule
+      from="^https?://(.*)\.hiddenservice\.net/"
+      to="http://$1.onion/"
+  />
+  <rule
+      from="^https?://(.*)\.onion\.(cab|city|ink|it|link|nu|to)/"
+      to="http://$1.onion/"
+  />
+  <rule
+      from="^https?://(.*)\.tor2web\.org/"
+      to="http://$1.onion/"
+  />
+  <rule
+      from="^https?://(.*)\.torlink\.co/"
+      to="http://$1.onion/"
+  />
+</ruleset>

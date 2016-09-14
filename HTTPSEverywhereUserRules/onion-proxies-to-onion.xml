@@ -1,9 +1,0 @@
-<ruleset name="Onion proxies to onion">
-  <target host="*.onion.cab" />
-  <target host="*.onion.link" />
-  <target host="*.onion.to" />
-  <rule
-      from="^https?://(.*)\.onion\.(cab|link|to)/"
-      to="http://$1.onion/"
-  />
-</ruleset>
