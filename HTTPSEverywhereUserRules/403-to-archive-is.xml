@@ -1,0 +1,17 @@
+<ruleset name="403 and captchas to Archive.is">
+  <!--
+    Prevent annoying 403 and CloudFlare captchas when on VPN or Tor by using
+    Archive.is as workaround.
+    Use this only in domains you use non-interactively, meaning you don't login
+    nor add new content to them such as a comment or a post.
+    Add new domains by adding a new target tag below.
+  -->
+  <target host="extratorrent.cc" />
+  <target host="extratorrent.com" />
+  <target host="www.quantopian.com" />
+  <target host="yts.ag" />
+  <rule
+    from="^"
+    to="https://archive.is/?run=1&amp;url="
+  />
+</ruleset>
