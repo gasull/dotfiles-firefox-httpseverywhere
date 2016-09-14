@@ -1,0 +1,8 @@
+<ruleset name="Onion proxies to onion">
+  <target host="*.i2p.re" />
+  <target host="*.i2p.to" />
+  <rule
+      from="^https?://(.*)\.i2p\.(re|to)/"
+      to="http://$1.i2p/"
+  />
+</ruleset>
