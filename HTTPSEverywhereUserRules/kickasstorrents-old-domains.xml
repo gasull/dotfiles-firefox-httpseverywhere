@@ -1,5 +1,7 @@
 <ruleset name="Old KickassTorrents domains, including fake ones, to newest">
   <target host="ka.tt" />
+  <!-- needs signup -->
+  <target host="kat.am" />
   <target host="kat.cr" />
   <target host="kat.ph" />
   <target host="kickass-torrent.cr" />
@@ -7,6 +9,7 @@
   <target host="kickass-torrents.com" />
   <target host="kickass-torrents.to" />
   <target host="kickass.al" />
+  <target host="kickass.mx" />
   <target host="kickass.so" />
   <target host="kickass.to" />
   <target host="kickasstorrent.com.au" />
@@ -28,6 +31,7 @@
   <target host="www.kickass-torrents.to" />
   <target host="www.kickass.al" />
   <target host="www.kickass.cd" />
+  <target host="www.kickass.mx" />
   <target host="www.kickass.so" />
   <target host="www.kickass.to" />
   <target host="www.kickasstorrent.com.au" />
@@ -45,11 +49,11 @@
       to="https://kickass.cd/"
   />
   <rule
-      from="^http(s?)://(www\.)?kat\.(cr|ph)/"
+      from="^http(s?)://(www\.)?kat\.(am|cr|ph)/"
       to="https://kickass.cd/"
   />
   <rule
-      from="^http(s?)://(www\.)?kickass(-?)(torrent(s)?)?\.(al|com(\.au)?|cr|ee|eu|im|la|ru|to)/"
+      from="^http(s?)://(www\.)?kickass(-?)(torrent(s)?)?\.(al|com(\.au)?|cr|ee|eu|im|la|mx|ru|to)/"
       to="https://kickass.cd/"
   />
 </ruleset>
