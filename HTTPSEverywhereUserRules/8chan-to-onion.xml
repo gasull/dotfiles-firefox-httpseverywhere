@@ -1,0 +1,18 @@
+<ruleset name="8chan to onion">
+  <target host="8ch.net" />
+  <target host="8ch.pl" />
+  <target host="8ch.vichandcxw4gm3wy.onion" />
+  <target host="8chan.co" />
+  <rule
+      from="^http(s?)://(\w+\.)?(8ch\.net|8chan\.co)/"
+      to="http://$2oxwugzccvk3dk6tj.onion/"
+  />
+  <!--
+    These are the same clone site that has different posts.
+    Redirect only the home page and board pages, not individual posts.
+  -->
+  <rule
+    from="^http(s?)://(www\.)?8ch\.(pl|vichandcxw4gm3wy\.onion)/(\w+/)?$"
+      to="http://oxwugzccvk3dk6tj.onion/$4"
+  />
+</ruleset>
