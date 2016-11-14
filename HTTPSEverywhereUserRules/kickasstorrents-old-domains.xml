@@ -1,4 +1,4 @@
-<ruleset name="Old KickassTorrents domains, including fake ones, to newest">
+<ruleset name="Old KickassTorrents domains, mirrors and fakes, to best mirror">
   <target host="ka.tt" />
   <!-- needs signup -->
   <target host="kat.am" />
@@ -22,8 +22,10 @@
   <target host="kickasstorrents.la" />
   <target host="kickasstorrents.ru" />
   <target host="kickasstorrents.to" />
+  <target host="lsuzvpko6w6hzpnn.onion" />
   <target host="www.ka.tt" />
   <target host="www.kat.cr" />
+  <target host="www.kat.how" />
   <target host="www.kat.ph" />
   <target host="www.kickass-torrent.cr" />
   <target host="www.kickass-torrent.to" />
@@ -45,11 +47,15 @@
   <target host="www.kickasstorrents.ru" />
   <target host="www.kickasstorrents.to" />
   <rule
+      from="^http(s?)://lsuzvpko6w6hzpnn\.onion/"
+      to="https://kickass.cd/"
+  />
+  <rule
       from="^http(s?)://(www\.)?ka\.tt/"
       to="https://kickass.cd/"
   />
   <rule
-      from="^http(s?)://(www\.)?kat\.(am|cr|ph)/"
+      from="^http(s?)://(www\.)?kat\.(am|cr|how|ph)/"
       to="https://kickass.cd/"
   />
   <rule
