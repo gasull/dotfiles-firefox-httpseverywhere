@@ -1,4 +1,4 @@
-<ruleset name="Old demonoid domains, including fake ones, to onion">
+<ruleset name="Old demonoid domains and fakes to onion">
   <target host="d2.vu" />
   <target host="demonoid.com" />
   <target host="demonoid.me" />
