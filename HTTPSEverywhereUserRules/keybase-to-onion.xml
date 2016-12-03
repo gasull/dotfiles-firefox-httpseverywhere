@@ -1,0 +1,7 @@
+<ruleset name="Old demonoid domains, including fake ones, to onion">
+  <target host="keybase.io" />
+  <rule
+      from="^http(s?)://keybase\.io/"
+      to="http://fncuwbiisyh6ak3i.onion/"
+  />
+</ruleset>
