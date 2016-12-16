@@ -1,0 +1,27 @@
+<ruleset name="Change to Accelerated Mobile Pages version">
+  <target host="www.bbc.com" />
+  <target host="elpais.com" />
+  <target host="www.howtogeek.com" />
+  <target host="www.theguardian.com" />
+  <target host="www.wsj.com" />
+  <rule
+    from="^http://www\.bbc\.com/news/(?!amp\/).+\-([a-zA-Z0-9]*)"
+    to="http://www.bbc.co.uk/news/amp/$1"
+  />
+  <rule
+    from="^http://elpais\.com/((?!.*amp.html$).*)\.html"
+    to="http://elpais.com/$1.amp.html"
+  />
+  <rule
+    from="^http://www\.howtogeek\.com/((?!.*\/amp\/$).*\/$)"
+    to="http://www.howtogeek.com/$1/amp/"
+  />
+  <rule
+    from="^https://www\.theguardian\.com/(.+)"
+    to="https://amp.theguardian.com/$1"
+  />
+  <rule
+    from="^http://www\.wsj\.com/articles/(.*)"
+    to="http://www.wsj.com/amp/articles/$1"
+  />
+</ruleset>
