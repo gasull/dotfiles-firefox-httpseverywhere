@@ -1,14 +1,22 @@
 <ruleset name="Old KickassTorrents domains, mirrors and fakes, to best mirror">
+  <!-- Redirects to last known domain
+    https://torrentfreak.com/kickasstorrents-brought-back-to-life-by-original-staffers-161216/
+    https://thehackernews.com/2016/12/kickass-torrents-site.html
+    It seems kickass.cd showed exactly the same results as TPB.
+  -->
   <target host="ka.tt" />
   <!-- needs signup -->
   <target host="kat.am" />
   <target host="kat.cr" />
+  <target host="kat.how" />
   <target host="kat.ph" />
+  <target host="katcr.co" />
   <target host="kickass-torrent.cr" />
   <target host="kickass-torrent.to" />
   <target host="kickass-torrents.com" />
   <target host="kickass-torrents.to" />
   <target host="kickass.al" />
+  <target host="kickass.cd" />
   <target host="kickass.mx" />
   <target host="kickass.so" />
   <target host="kickass.to" />
@@ -27,6 +35,7 @@
   <target host="www.kat.cr" />
   <target host="www.kat.how" />
   <target host="www.kat.ph" />
+  <target host="www.katcr.co" />
   <target host="www.kickass-torrent.cr" />
   <target host="www.kickass-torrent.to" />
   <target host="www.kickass-torrents.com" />
@@ -47,19 +56,23 @@
   <target host="www.kickasstorrents.ru" />
   <target host="www.kickasstorrents.to" />
   <rule
-      from="^http(s?)://lsuzvpko6w6hzpnn\.onion/"
-      to="https://kickass.cd/"
+    from="^http(s?)://lsuzvpko6w6hzpnn\.onion/usearch/"
+    to="https://katcr.co/new/torrents-search.php?search="
   />
   <rule
-      from="^http(s?)://(www\.)?ka\.tt/"
-      to="https://kickass.cd/"
+    from="^http(s?)://(www\.)?katcr\.co/new/"
+    to="https://katcr.co/new/"
   />
   <rule
-      from="^http(s?)://(www\.)?kat\.(am|cr|how|ph)/"
-      to="https://kickass.cd/"
+    from="^http(s?)://(www\.)?ka\.tt/usearch/"
+    to="https://katcr.co/new/torrents-search.php?search="
   />
   <rule
-      from="^http(s?)://(www\.)?kickass(-?)(torrent(s)?)?\.(al|com(\.au)?|cr|ee|eu|im|la|mx|ru|to)/"
-      to="https://kickass.cd/"
+    from="^http(s?)://(www\.)?kat\.(am|cr|how|ph)/usearch/"
+    to="https://katcr.co/new/torrents-search.php?search="
+  />
+  <rule
+    from="^http(s?)://(www\.)?kickass(-?)(torrent(s)?)?\.(al|com(\.au)?|cd|cr|ee|eu|im|la|mx|ru|to)/usearch/"
+    to="https://katcr.co/new/torrents-search.php?search="
   />
 </ruleset>
